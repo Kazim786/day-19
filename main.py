@@ -10,8 +10,10 @@ t = Turtle()
 #     t.forward(10)
 
 screen = Screen()
+screen.setup(width=500, height=400)
+user_bet = screen.textinput(title= "Make your bet", prompt = "Which turtle will win the race? Enter a color: ")
 
-# screen.listen()
+print(user_bet)
 
 # screen.onkey(key= "space", fun=move_forwards)
 
@@ -62,24 +64,45 @@ screen = Screen()
 
 
 #Assignment 1 is done
+
+
+#Assignment 2
 #for turtle racing game we are probably going to use setheading, forward, random, and of course an event listener
 
 timmy = Turtle()
 timmy.color("green")
 timmy.shape("turtle")
+timmy.penup()
+timmy.goto(-200, -90)
 
 angelo = Turtle()
 angelo.color("black")
 angelo.shape("turtle")
+angelo.penup()
+angelo.goto(-201, -70)
 
 rambo = Turtle()
 rambo.color("blue")
 rambo.shape("turtle")
+rambo.penup()
+rambo.goto(-203, -50)
+
 
 
 lee = Turtle()
 lee.color("yellow")
 lee.shape("turtle")
+lee.penup()
+lee.goto(-204, -30)
+
+
+
+
+
+
+
+
+
 
 
 
