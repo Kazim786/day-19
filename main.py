@@ -5,7 +5,7 @@ from turtle import Turtle, Screen
 
 t = Turtle()
 
-#Example:
+# #Example:
 # def move_forwards():
 #     t.forward(10)
 
@@ -31,8 +31,9 @@ screen = Screen()
 # C = Clear Drawing
 
 
+
 def move_forwards():
-    t.forward(10)
+    t.forward(30)
 
 screen.onkey(key= "W", fun=move_forwards)
 
@@ -56,6 +57,17 @@ screen.onkey(key= "D", fun= move_clockwise)
 def clear():
     t.clear()
 
-screen.onkey(key= "D", fun= clear)
+screen.onkey(key= "C", fun= clear)
+
+
+
+
+
+
+
+
+
+
+
 
 screen.exitonclick()
