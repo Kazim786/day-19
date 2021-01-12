@@ -35,7 +35,7 @@ screen = Screen()
 def move_forwards():
     t.forward(30)
 
-screen.onkey(key= "W", fun=move_forwards)
+screen.onkey("w", move_forwards)
 
 
 def move_backwards():
